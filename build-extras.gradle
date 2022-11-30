@@ -2,6 +2,7 @@ android {
     defaultConfig {
         minSdkVersion 25
         targetSdkVersion 31
+        manifestPlaceholders = [redirectSchemeName: "yourscheme", redirectHostName: "yourhost"]
     }
 
     packagingOptions {
